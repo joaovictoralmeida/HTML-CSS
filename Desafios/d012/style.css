@@ -58,6 +58,11 @@ div {
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 30px;
+    font-size: 1vw;
+}
+
+div.imagem {
+    box-shadow: inset 6px 6px 13px 0px black;
 }
 
 div p {
@@ -97,8 +102,7 @@ div#i2 {
 .fundo {
     background-color: rgba(0, 0, 0, 0.384);
     color: white;
-    width: 600px;
-    /*display: inline-block;*/
+    display: inline-block;
 }
 
 footer {
