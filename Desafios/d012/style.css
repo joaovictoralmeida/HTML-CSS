@@ -20,21 +20,23 @@
     padding: 0;
 }
 
+html, body {
+    min-height: 100vh;
+}
+
 header {
     background-color: black;
-    padding-top: 30px;
+    color: white;
+    text-align: center;
 }
 
 
 header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
     font-family: var(--fonte-cordel);
-    color: white;
-    
-    text-align: center;
+    font-size: 10vw;
 
-    font-size: 150px;
-
-    min-height: 200px;
 }
 
 header > p {
@@ -53,11 +55,14 @@ a:hover {
 }
 
 div {
-    padding: 40px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
 }
 
 div p {
     font-size: 3em;
+    line-height: 2em;
 }
 
 #padrao {
@@ -92,7 +97,8 @@ div#i2 {
 .fundo {
     background-color: rgba(0, 0, 0, 0.384);
     color: white;
-    max-width: 600px;
+    width: 600px;
+    /*display: inline-block;*/
 }
 
 footer {
